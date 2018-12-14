@@ -36,3 +36,19 @@ Develop a pseudo full stack web application for hotel bookings. You are expected
 #### [Guide]
 
 Hotels datadump: http://hck.re/s7U6II
+
+#### [Installation]
+
+* Run apache server and phymyadmin
+* create a database and import sql/hotel_booking.sql
+* open .env file and change your database configtation
+* run "php artisan serve" in terminal
+* now open the url "127.0.0.1:8000"
+
+#### [Snapshot]
+
+* Home Page
+![home page](snapshot/home.png)
+
+* Detail Page
+![detail page](snapshot/detail.png)

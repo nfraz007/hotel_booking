@@ -112,6 +112,7 @@ App = (function($){
 		init: function(){
 			login();
 		},
+		spin: spin,
 		options: options,
 		config: config,
 		base_url: base_url,

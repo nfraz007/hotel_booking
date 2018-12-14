@@ -32,6 +32,7 @@ Home = (function($){
 	}
 
 	hotel_ajax = function(){
+		$("#hotel_list").html('<h1 class="display-4 text-center">'+App.spin+'</h1>');
 		$.ajax({
 		    url: self.api_url("hotel_list"),
 		    type:'post',

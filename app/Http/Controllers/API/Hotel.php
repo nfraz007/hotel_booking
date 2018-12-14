@@ -36,7 +36,7 @@ class Hotel extends Controller{
 
             $template_data = [];
 
-            $db = DB::table("hotel")->skip(0)->take(20);
+            $db = DB::table("hotel");
 
             // filter code
             if($search) $db->where("name", "like", "%$search%")->orWhere("city", "like", "%$search%")->orWhere("country", "like", "%$search%");
