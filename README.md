@@ -37,6 +37,10 @@ Develop a pseudo full stack web application for hotel bookings. You are expected
 
 Hotels datadump: http://hck.re/s7U6II
 
+#### [Language]
+
+* Laravel, mysql, html, sass, jquery, bootstrap 4
+
 #### [Installation]
 
 * Run apache server and phymyadmin
