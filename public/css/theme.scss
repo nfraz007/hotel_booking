@@ -1,0 +1,40 @@
+$primary: #22264b;
+$secondary: #e6cf8b;
+$link: #b56969;
+$light: #e8edf3;
+
+$red : #CE5454;
+
+input[class*="error"]{
+	border: 1px solid $red !important;
+}
+textarea[class*="error"]{
+	border: 1px solid $red !important;
+}
+select[class*="error"]{
+	border: 1px solid $red !important;
+}
+label[class*="error"]{
+	color: $red !important;
+}
+
+.bold{
+	font-weight: bold !important;
+}
+
+.bg-primary{
+	background: $primary !important;
+}
+
+.btn-primary{
+	background: $primary !important;
+}
+
+a{
+	color: $link !important;
+	text-decoration: none !important;
+}
+
+@media (max-width: 768px){
+	
+}

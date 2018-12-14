@@ -1,0 +1,34 @@
+input[class*=error] {
+  border: 1px solid #CE5454 !important;
+}
+
+textarea[class*=error] {
+  border: 1px solid #CE5454 !important;
+}
+
+select[class*=error] {
+  border: 1px solid #CE5454 !important;
+}
+
+label[class*=error] {
+  color: #CE5454 !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.bg-primary {
+  background: #22264b !important;
+}
+
+.btn-primary {
+  background: #22264b !important;
+}
+
+a {
+  color: #b56969 !important;
+  text-decoration: none !important;
+}
+
+/*# sourceMappingURL=public/css/theme.css.map */
